@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header-bar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#201f31;
+}
+.icon{
+    width: 40%;
+    height: 70px;
+}
+.logo{
+    font-size: 40px;
+    padding-left:20px;
+    color: #ff7200;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.navbar{
+    width: 50%;
+    height: 70px;
+}
+nav{
+    float: inline-end;
+}
+nav li{
+    font-size: large;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.b{
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: solid;
+    color: rgb(17, 180, 31);
+    font-size: large;
+}
+.pic{
+    padding: 30px;
+}
